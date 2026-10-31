@@ -11,10 +11,21 @@ AI Agent Engineer · Applied AI Developer · 企业 AI 应用解决方案
 | 项目 | 简介 | 状态 |
 | --- | --- | --- |
 | [AgentTaskPilot](https://github.com/wangluqing/agent-task-pilot) | 面向企业 AI Agent 场景，将模糊业务需求转化为结构化诊断、任务流程、风险清单和评估指标；支持 Mock 与 DeepSeek BYOK；已完成本地自动化测试、GitHub CI 和 Mock 浏览器验收。 | 持续迭代 |
-| ServicePilot | 客服工单 Agent 工程与评估实践。 | 整理中 |
 | 企业知识库 RAG Agent | 面向企业知识检索与问答场景的 Agent 方案。 | 规划中 |
 
 > AgentTaskPilot 当前的验收范围不代表真实 DeepSeek API 已完成生产环境验证。
+
+### ServicePilot｜AI 客服工单智能分析与人工复核
+
+基于 FastAPI、Python 业务规则与可选 DeepSeek LLM 的客服工单 Agent 工程演示项目。
+
+- 工单分类与结构化分析
+- 模拟订单核验及安全规则
+- LLM 失败降级与人工复核提示
+- Web 演示界面及离线自动化测试
+- 项目定位：Portfolio Demo，非生产部署系统
+
+[查看项目源码与 Web 演示](https://github.com/wangluqing/service-pilot)
 
 ## 关于我
 
