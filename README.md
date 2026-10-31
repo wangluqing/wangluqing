@@ -52,4 +52,8 @@ AI Agent Engineer · Applied AI Developer · 企业 AI 应用解决方案
 
 ## 联系方式
 
-欢迎通过 GitHub 项目 Issues 交流技术问题；商务合作联系方式将在确认后补充。
+欢迎通过以下方式交流 AI Agent 应用开发、企业 AI 解决方案、技术培训及商务合作。
+
+**联系邮箱：** [wangluqing360@163.com](mailto:wangluqing360@163.com)
+
+也欢迎通过 GitHub 项目 Issues 交流技术问题。
