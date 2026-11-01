@@ -10,29 +10,23 @@
 
 诊断企业场景与需求，设计 Agent 应用原型，结合业务规则、模型与人工流程，并以自动化测试、评估指标和验证边界检验可行性。
 
-## Featured Project｜代表项目
+## 代表项目
 
-### CreditPilot V0.1.0 — Synthetic Credit Risk Demo
+### 01 · CreditPilot
 
-[GitHub Repository](https://github.com/wangluqing/CreditPilot) | [Release v0.1.0](https://github.com/wangluqing/CreditPilot/releases/tag/v0.1.0)
+**合成信用风险分析与解释演示**
 
-从业务需求到工程交付的 AI 应用开发实践。
+**业务问题：** 信用风险应用需要将数据、规则、评分、策略决策和解释组织为可复核的工程链路。
 
-基于 Python、FastAPI 和确定性模拟工具链，构建合成信用风险分析与解释演示系统。
+**项目实现：** 基于 Python、FastAPI 和确定性模拟工具链，使用合成客户数据完成风险评分、策略决策、双阶段证据校验，并提供 REST API、Web UI 和结构化输出。
 
-**核心能力：**
+**工程验证：** 137 项自动化测试通过，Ruff 与 GitHub Actions CI 通过；已按 Apache-2.0 发布 v0.1.0。
 
-- **业务建模：** 合成客户数据、模拟规则、风险评分与策略决策
-- **可信机制：** 双阶段证据校验、决策约束与解释验证
-- **应用交付：** REST API、Web UI、结构化输出
-- **工程质量：** 137 项自动化测试、Ruff、GitHub Actions CI
-- **开源发布：** Apache-2.0，v0.1.0
+**验证边界：** 仅使用合成数据，不用于真实信贷决策；未接入 LLM、RAG 或真实银行系统。
 
-**Tech Stack：** Python · FastAPI · Pydantic · Pytest · Ruff · GitHub Actions
+[查看 CreditPilot](https://github.com/wangluqing/CreditPilot) · [Release v0.1.0](https://github.com/wangluqing/CreditPilot/releases/tag/v0.1.0)
 
-**Disclaimer：** Demo Only / Synthetic Data. Not for real credit decisions.
-
-### 01 · AgentTaskPilot
+### 02 · AgentTaskPilot
 
 **企业 AI Agent 需求诊断与任务规划**
 
@@ -40,13 +34,13 @@
 
 **项目实现：** 将业务需求转化为结构化诊断、任务流程、风险清单和评估指标，支持 Mock 与 DeepSeek BYOK。
 
-**工程证据：** 已完成本地自动化测试、GitHub CI 和 Mock 浏览器验收。
+**工程验证：** 已完成本地自动化测试、GitHub CI 和 Mock 浏览器验收。
 
 **验证边界：** 当前验证不代表真实 DeepSeek API 已完成生产环境验证。
 
 [查看 AgentTaskPilot](https://github.com/wangluqing/agent-task-pilot)
 
-### 02 · ServicePilot
+### 03 · ServicePilot
 
 **AI 客服工单智能分析与人工复核**
 
@@ -54,7 +48,7 @@
 
 **项目实现：** 基于 FastAPI、Python 业务规则与可选 DeepSeek LLM，实现结构化工单分析、模拟订单核验、安全规则、失败降级和人工复核提示。
 
-**工程证据：** 公开版 51 条离线自动化测试通过，提供可运行的 FastAPI 服务与真实 Web 界面截图。
+**工程验证：** 公开版 51 条离线自动化测试通过，提供可运行的 FastAPI 服务与真实 Web 界面截图。
 
 **验证边界：** 使用模拟订单数据，支持可选 LLM 接入；当前为 Portfolio Demo，尚未完成生产环境部署验证。
 
